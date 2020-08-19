@@ -1,0 +1,26 @@
+#advancedSearch{
+  display: flex;
+  justify-content: center;
+  padding: 0 10vw;
+}
+
+.advancedSearchItem{
+  display: grid;
+  flex: 1;
+  padding: 1vmin;
+}
+
+input[type=submit]{
+  padding: 1vmin;
+}
+
+
+@media only screen and (max-width: 768px){
+  #advancedSearch {
+    display: block;
+      .advancedSearchItem {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+  }
+}

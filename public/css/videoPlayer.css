@@ -1,0 +1,69 @@
+.openTrailer{
+  width: 6vmin;
+  transform: rotate(180deg);
+  margin-bottom: 2vmin;
+  box-shadow: 0 0 5px 6px #ffffff;
+  border-radius: 100%;
+  cursor: pointer;
+  position: absolute;
+  top:50%;
+  left:94%;
+}
+
+.openTrailer:hover{
+  background-color: var(--AccentColor);
+}
+
+.closeTrailer{
+  height: 5vmin;
+  margin-left: 0.2vmin;
+  margin-top: 0.3vmin;
+  filter: var(--ImgColor);
+  position: absolute;
+  top: 2vmin;
+  left: 2vmin;
+}
+
+.closeTrailer:hover{
+  filter: invert(69%) sepia(64%) saturate(3731%) hue-rotate(109deg) brightness(97%) contrast(102%);
+}
+
+.VideoPlayer{
+  outline: none;
+  width: 90vw;
+  max-height: 90vh;
+  height: calc(90vw * 0.56);
+  margin: 0 auto;
+  position: absolute;
+  top: 10vmin;
+  left: 5vw;
+}
+
+#trailer{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  top: 0vmin;
+  transition: 1s;
+  text-align: initial;
+  z-index: 10;
+}
+
+#trailer.open{
+  background-color: var(--VideoBackground);
+  left: 0;
+  transition: 1s;
+}
+
+#trailer.hidden{
+  background-color: var(--VideoBackground);
+  left: 100%;
+  transition: 1s;
+}
+
+@media only screen and (max-width: 768px) and (max-height: 768px) and (orientation:portrait) {
+  .VideoPlayer{
+    top: 13vmin;
+  }
+}
