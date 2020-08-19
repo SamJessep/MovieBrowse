@@ -6,34 +6,34 @@ It uses the [The Movie Database(TMDb) API](https://www.themoviedb.org/ "The Movi
 
 ## Features
 - Search Movies/TV shows by name
-  * Auto complete search terms
+    * Auto complete search terms
 - Quick Discover via:
-  * In theatres
-  * Latest 
-  * Popular
-  * Generes
+    * In theatres
+    * Latest 
+    * Popular
+    * Generes
 - Preferences Menu
-  * Choose country for movie ratings and release dates
-  * Choose language
-  * Choose to include or block adult content
+    * Choose country for movie ratings and release dates
+    * Choose language
+    * Choose to include or block adult content
 - Quick Result sorting
-  * Popularity
-  * Release Date
-  * Rating
-  * Revenue
-  * Title
+    * Popularity
+    * Release Date
+    * Rating
+    * Revenue
+    * Title
 - Advanced Search
-  * Release Date Range
-  * Rating Range
-  * Specific Genre
-  * Media type(Movies/TV)
+    * Release Date Range
+    * Rating Range
+    * Specific Genre
+    * Media type(Movies/TV)
   
 - Movie/TV show Details
-  * Age rating
-  * Duration
-  * Release Date
-  * Star Rating
-  * Description
+    * Age rating
+    * Duration
+    * Release Date
+    * Star Rating
+    * Description
 - Movie/TV trailer from YouTube
 - User Reviews
 - Related Movies/TV Shows
